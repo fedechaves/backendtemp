@@ -1,0 +1,21 @@
+1. Initialize npm and intall dependencies
+    express, dotenv, cors, mongodb, ejs, nodemon(--save-dev)
+
+2. Require dependencies.
+
+3. Declare variables.
+
+4. Connect to mongodb - add connection string to .env file.
+
+5. Create PORT
+
+//----Test Mongo and port connection
+
+6. Set middleware
+
+7.Create Public and Views folders - add main.js and style.css to public and index,ejs to Views
+
+8. Create Heroku repo
+    heroku login
+    heroku create name-of-project
+    echo "
