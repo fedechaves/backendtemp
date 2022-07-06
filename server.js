@@ -18,6 +18,11 @@ MongoClient.connect(dbConnectionString)
     })
 
 //DECLARE VARIABLES
+app.set('view engine', 'ejs') //templating,  generate html
+app.use(express.static('public')) //to access public folder
+app.use(express.urlencoded({extended: true })) // helping parse urls
+app.use(express.json())// help express parse json files
+app.use(cors())
 
 //CREATE PORT
 app.listen(process.env.PORT || PORT, () => { 

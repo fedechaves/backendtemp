@@ -18,4 +18,9 @@
 8. Create Heroku repo
     heroku login
     heroku create name-of-project
-    echo "
+    echo "web: node server.js" > Procfile
+    git add .
+    git commit -m "changes"
+    git push heroku main
+
+//-------test heroku repo
